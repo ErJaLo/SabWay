@@ -5,6 +5,11 @@
 .m0a{
     margin: 0 auto;
 }
+body{
+    background-image: url(../imatges/Diseño\ sin\ título\(1\).svg);
+    background-color: black;
+
+}
 div.m0a.hybrid {
     background-color: #F8F8F8;
 }
