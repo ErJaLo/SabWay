@@ -5,10 +5,22 @@
 .m0a{
     margin: 0 auto;
 }
-body{
-    background-image: url(../imatges/Diseño\ sin\ título\(1\).svg);
-    background-color: black;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w33 {
+    width: 33.333%;
+}
 
+body{
+    background-image: url(../imatges/fondo.png);
+    background-color: black;
+    background-size: 700px;
+    background-position: center top;
+}
+header{
+    background-color: red;
 }
 div.m0a.hybrid {
     background-color: #F8F8F8;
@@ -19,4 +31,11 @@ section#banner{
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+div#login{
+    width: 50%;
+    
+}
+footer li{
+    
 }
