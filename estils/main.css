@@ -36,6 +36,13 @@ div#login{
     width: 50%;
     
 }
+#banner img{
+    width: 100%;
+    height: auto;
+}
+#banner{
+    height: auto;
+}
 footer li{
     
 }
