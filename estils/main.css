@@ -162,3 +162,13 @@ footer form button {
     font-family: "Libre Franklin", sans-serif !important;
     font-weight: bold;
 }
+footer form button:hover {
+    background-color: black;
+    color: #bc4440;
+    border: 1px red solid;
+}
+form fieldset button:hover, form fieldset input[type="reset"]:hover {
+    background-color: black;
+    color: #bc4440;
+    border: 1px red solid;
+}

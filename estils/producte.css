@@ -65,3 +65,8 @@ input[type="number"] {
     width: 50px;
     margin-right: 10px;
 }
+button:hover {
+    background-color: black;
+    color: #bc4440;
+    border: 1px red solid;
+}
