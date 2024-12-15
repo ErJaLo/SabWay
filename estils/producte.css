@@ -20,7 +20,7 @@ body{
     background-position: center top;
 }
 div.m0a.hybrid {
-    background-color: #F8F8F8;
+    background-color: white;
 }
 header nav {
     display: inline;
@@ -29,4 +29,39 @@ header nav {
 header nav ul {
     display: inline;
     list-style-type: none;
+}
+.alinear {
+    text-align: end;
+}
+.alinear p{
+    padding-right: 50px;
+    color: red;
+    font-size: 200%;
+}
+.alinear img{
+    width: 100%;
+}
+.marca{
+    font-size: 150%;
+    color: rgba(0, 0, 0, 0.322);
+}
+.precio{
+    font-size: 200%;
+}
+.config img{
+    width: 60%;
+}
+.w50 {
+    width: 50%;
+}
+button, input[type="number"] {
+    background-color: #bc4440;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="number"] {
+    width: 50px;
+    margin-right: 10px;
 }
