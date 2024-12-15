@@ -30,35 +30,54 @@ body{
     background-position: center top;
     font-family: "Roboto", sans-serif;
 }
-header{
-    background-color: red;
-}
 div.hybrid.m0a {
     background-color: #F8F8F8;
+}
+main{
+
 }
 div#login{
     width: 50%;
     padding: 200px 0px 200px ;
 }
-form fieldset input {
-    margin: 10px;
+form fieldset label {
+    text-align: center;
+    position: relative;
+    left: 5px;
+    top: 10px;
 }
-form fieldset label{
+form fieldset {
 
+    background-color: rgb(175, 175, 175);
+    border: solid 4px rgb(87, 87, 87);
+    border-radius: 15px;
 }
-form fieldset div.w50 input{
+
+div#login form fieldset input {
+    margin: 20px 0px;
+    
+}
+
+div#login form fieldset div.w50 input{
     border-radius: 5px;
     padding: 7px;
-    width: auto;
+    width: 90%;
 }
-form fieldset div#botons{
-    text-align: center;
+div#login form fieldset div#botons{
+    margin: 0px auto;
+}
+form fieldset button, form fieldset input[type="reset"] {
+    background-color: #bc4440;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
 }
 section#banner{
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(143, 12, 12);
+    
 }
 
 #banner img{
@@ -98,7 +117,24 @@ footer li span{
     top:-4px;
 }
 
+footer table {
+ 
+    margin: 0 auto;
+}
+footer form input{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
 
+}
+footer form textarea {
+    resize: none;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+
+}
+footer div#mapa{
+    padding: 40px;
+}
 
 .titol{
     font-family: "Libre Franklin", sans-serif !important;
