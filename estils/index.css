@@ -83,31 +83,31 @@ section#banner2 {
     height: 270px;
 }
 
-section#amazon h1 {
+section#origen h1 {
     color: #ff1a1a;
     font-size: 150%;
     margin-bottom: 10px;
 }
 
-section#amazon img {
+section#origen img {
     width: 90%;
     border-radius: 8%;
 }
 
-section#amazon h2 {
+section#origen h2 {
     color: white;
     margin: 0;
     font-size: 120%;
 }
 
-section#amazon p {
+section#origen p {
     color: white;
     font-weight: normal;
     margin: 0;
     font-size: 110%;
 }
 
-section#amazon {
+section#origen {
     padding-bottom: 50px;
 }
 

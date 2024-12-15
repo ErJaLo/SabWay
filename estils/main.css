@@ -165,10 +165,8 @@ footer form button {
 footer form button:hover {
     background-color: black;
     color: #bc4440;
-    border: 1px red solid;
 }
 form fieldset button:hover, form fieldset input[type="reset"]:hover {
     background-color: black;
     color: #bc4440;
-    border: 1px red solid;
 }

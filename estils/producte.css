@@ -66,9 +66,11 @@ input[type="number"] {
     width: 50px;
     margin-right: 10px;
 }
-<<<<<<< HEAD
 
-
+.añadir:hover{
+    background-color: black;
+    color: #bc4440;
+}
 
 
 footer{
@@ -135,10 +137,3 @@ footer form button {
     font-family: "Libre Franklin", sans-serif !important;
     font-weight: bold;
 }
-=======
-button:hover {
-    background-color: black;
-    color: #bc4440;
-    border: 1px red solid;
-}
->>>>>>> ff8e48047c37bc58346cc791ddf00bc49bab902e
