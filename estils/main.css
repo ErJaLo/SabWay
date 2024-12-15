@@ -12,6 +12,16 @@
 .w33 {
     width: 33.333%;
 }
+.w50{
+    width: 50%;
+}
+.w66{
+    width: 66.666%;
+}
+.w100{
+    width: 100%;
+}
+
 
 body{
     background-image: url(../imatges/fondo.png);
@@ -23,8 +33,26 @@ body{
 header{
     background-color: red;
 }
-div.m0a.hybrid {
+div.hybrid.m0a {
     background-color: #F8F8F8;
+}
+div#login{
+    width: 50%;
+    padding: 200px 0px 200px ;
+}
+form fieldset input {
+    margin: 10px;
+}
+form fieldset label{
+
+}
+form fieldset div.w50 input{
+    border-radius: 5px;
+    padding: 7px;
+    width: auto;
+}
+form fieldset div#botons{
+    text-align: center;
 }
 section#banner{
     width: 100%;
@@ -32,10 +60,7 @@ section#banner{
     background-size: contain;
     background-color: rgb(143, 12, 12);
 }
-div#login{
-    width: 50%;
-    
-}
+
 #banner img{
     width: 100%;
     height: auto;
@@ -68,8 +93,9 @@ footer li img {
     padding-right: 10px;
     height: auto;
 }
-footer li a span {
-    padding-top: 5px;
+footer li span{
+    position: relative;
+    top:-4px;
 }
 
 
