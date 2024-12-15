@@ -1,0 +1,32 @@
+.hybrid{
+    max-width: 1280px;
+    
+}
+.m0a{
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.w33 {
+    width: 33.333%;
+}
+
+body{
+    background-image: url(../imatges/fondo.png);
+    background-color: black;
+    background-size: 700px;
+    background-position: center top;
+}
+div.m0a.hybrid {
+    background-color: #F8F8F8;
+}
+header nav {
+    display: inline;
+    list-style-type: none;
+}
+header nav ul {
+    display: inline;
+    list-style-type: none;
+}
