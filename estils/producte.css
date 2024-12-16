@@ -205,3 +205,35 @@ footer form button {
     font-family: "Libre Franklin", sans-serif !important;
     font-weight: bold;
 }
+
+
+
+@media (max-width: 950px) {
+    section.need{
+        height: 320px;
+    }
+    section.opcions p{
+        font-size: 40px;
+    }
+    section.opcions div div{
+        height: 390px;
+
+    }
+    .w33{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    section.need p{
+        font-size: 180%;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    section.banner{
+        display: none;
+    }
+    div.footerBajo{
+        display: none;
+    }
+}

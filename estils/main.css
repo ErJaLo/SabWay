@@ -168,3 +168,21 @@ form fieldset button:hover, form fieldset input[type="reset"]:hover {
     background-color: black;
     color: #bc4440;
 }
+
+
+
+@media (max-width: 950px) {
+    section.productos{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    section.banner{
+        display: none;
+    }
+    div.footerBajo{
+        display: none;
+    }
+}
