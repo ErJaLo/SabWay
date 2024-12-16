@@ -1,24 +1,30 @@
-.hybrid{
+.hybrid {
     max-width: 1280px;
-    
+
 }
-.m0a{
+
+.m0a {
     margin: 0 auto;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 .w33 {
     width: 33.333%;
 }
-.w50{
+
+.w50 {
     width: 50%;
 }
-.w66{
+
+.w66 {
     width: 66.666%;
 }
-.w100{
+
+.w100 {
     width: 100%;
 }
 
@@ -41,13 +47,15 @@ h3 {
     font-weight: bold;
     font-size: 200%;
 }
-body{
+
+body {
     background-image: url(../imatges/fondo.png);
     background-color: black;
     background-size: 700px;
     background-position: center top;
     font-family: "Roboto", sans-serif;
 }
+
 div.hybrid.m0a {
     background-color: #F8F8F8;
 }
@@ -58,6 +66,49 @@ main {
 }
 
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+
+
+}
+
+nav ul li#img {
+    top: 5px;
+    left: -10;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 15px;
+    position: relative;
+    top: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 1s;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul#ll1 li {
+    padding-left: 40px;
+}
+
+nav ul#ll1 li img {
+    height: auto;
+    width: 100px;
+}
+header {
+    background-color: gray;
+}
 
 .liquid {
     width: 90%;
@@ -65,7 +116,7 @@ main {
 
 section#banner2 {
     background-position: center;
-    background-image: url(../img/banner2.jpeg);
+    background-image: url(../imatges/banner2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 180px 0 180px 0;
@@ -126,58 +177,68 @@ section#origen {
 
 
 
-footer{
+footer {
     border-top: solid 3px black;
 }
-footer li{
-    list-style-type: none ;
+
+footer li {
+    list-style-type: none;
 
 }
-footer li.titol{
+
+footer li.titol {
     font-size: 18px;
 }
+
 footer li {
     font-size: 14px;
     align-items: center;
 }
+
 footer li img {
-    
+
     border: none;
     border-right: 1px solid black;
     margin-right: 10px;
-    
+
     align-items: center;
     width: 20px;
     padding-right: 10px;
     height: auto;
 }
-footer li span{
+
+footer li span {
     position: relative;
-    top:-4px;
+    top: -4px;
 }
+
 footer li a {
     text-decoration: none;
     color: black;
 }
 
 footer table {
- 
+
     margin: 0 auto;
 }
-footer form input{
+
+footer form input {
     width: 100%;
     font-family: "Roboto", sans-serif;
 
 }
+
 footer form textarea {
     resize: none;
     width: 100%;
     font-family: "Roboto", sans-serif;
 
 }
-footer div#mapa{
+
+footer div#mapa {
     padding: 40px;
 }
+
 footer form button {
     background-color: #bc4440;
     color: white;
@@ -186,19 +247,33 @@ footer form button {
     border-radius: 5px;
     margin-bottom: 70px;
 }
-.titol{
+
+footer div#noms {
+    text-align: center;
+}
+
+footer div#noms p {
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titol {
     font-family: "Libre Franklin", sans-serif !important;
     font-weight: bold;
 }
 
 
 @media (max-width: 950px) {
-    section#banner2{
+    section#banner2 {
         display: none;
     }
+
     .w16 {
         width: 50%;
     }
+
     .w20 {
         width: 50%;
     }
@@ -208,13 +283,16 @@ footer form button {
     .w16 {
         width: 100%;
     }
+
     .w20 {
         width: 100%;
     }
-    section.banner{
+
+    section.banner {
         display: none;
     }
-    div.footerBajo{
+
+    div.footerBajo {
         display: none;
     }
 }

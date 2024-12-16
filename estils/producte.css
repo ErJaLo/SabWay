@@ -1,24 +1,30 @@
-.hybrid{
+.hybrid {
     max-width: 1280px;
-    
+
 }
-.m0a{
+
+.m0a {
     margin: 0 auto;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 .w33 {
     width: 33.333%;
 }
-.w50{
+
+.w50 {
     width: 50%;
 }
-.w66{
+
+.w66 {
     width: 66.666%;
 }
-.w100{
+
+.w100 {
     width: 100%;
 }
 
@@ -34,40 +40,57 @@ div.hybrid.m0a {
     background-color: #F8F8F8;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     justify-content: left;
 
-    
+
 }
-nav ul li#img{
+
+nav ul li#img {
     top: 5px;
     left: -10;
 }
+
 nav ul li {
     display: inline;
     padding: 0px 15px;
     position: relative;
     top: 30px;
-    
+
 }
+
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: color 1s;
 }
-nav ul#ll1 li{
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul#ll1 li {
     padding-left: 40px;
 }
+
 nav ul#ll1 li img {
     height: auto;
     width: 100px;
 }
+
 nav ul#ll3 li img {
     height: auto;
     width: 30px;
 }
+
+nav ul#ll3 li input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
 nav ul#ll3 li span {
     position: relative;
     left: -20px;
@@ -75,7 +98,8 @@ nav ul#ll3 li span {
     color: white;
     font-weight: bold;
 }
-header{
+
+header {
     background-color: gray;
 }
 
@@ -106,8 +130,11 @@ header{
     width: 60%;
 }
 
-.w50 {
-    width: 50%;
+
+section#video div iframe {
+    text-align: center;
+    display: block;
+    margin: 100px auto;
 }
 
 button,
@@ -117,11 +144,13 @@ input[type="number"] {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
+    transition: color 1s;
 }
 
 input[type="number"] {
     width: 50px;
     margin-right: 10px;
+    transition: color 1s;
 }
 
 .añadir:hover {
@@ -178,7 +207,6 @@ footer table {
 footer form input {
     width: 100%;
     font-family: "Roboto", sans-serif;
-
 }
 
 footer form textarea {
@@ -199,6 +227,23 @@ footer form button {
     border: none;
     border-radius: 5px;
     margin-bottom: 70px;
+    transition: color 1s;
+}
+
+footer div#noms {
+    text-align: center;
+}
+
+footer div#noms p {
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer form button:hover {
+    background-color: black;
+    color: #bc4440;
 }
 
 .titol {
@@ -209,31 +254,36 @@ footer form button {
 
 
 @media (max-width: 950px) {
-    section.need{
+    section.need {
         height: 320px;
     }
-    section.opcions p{
+
+    section.opcions p {
         font-size: 40px;
     }
-    section.opcions div div{
+
+    section.opcions div div {
         height: 390px;
 
     }
-    .w33{
+
+    .w33 {
         width: 100%;
         padding-bottom: 20px;
     }
-    section.need p{
+
+    section.need p {
         font-size: 180%;
     }
-    
+
 }
 
 @media (max-width: 650px) {
-    section.banner{
+    section.banner {
         display: none;
     }
-    div.footerBajo{
+
+    div.footerBajo {
         display: none;
     }
 }
